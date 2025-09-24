@@ -1,0 +1,135 @@
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: black;
+  height: 150px;
+  font-size: 50px;
+  font-weight: bold;
+
+}
+
+nav{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+  height: 50px;
+  background-color: blue;
+
+}
+
+nav a{
+
+  text-decoration: none;
+  color: #fff;
+
+}
+
+nav a:hover{
+  background-color: red;
+}
+
+#lateal{
+
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 700px;
+  gap: 40px;
+  background: gray;
+
+}
+
+#lateral a{
+
+  border-bottom: 20px solid #fff;
+
+}
+
+section{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 49.99%;
+  float: left;
+
+}
+
+section h1{
+
+  font-size: 30px;
+  font-weight: 500;
+
+}
+
+section p{
+
+  width: 95%;
+  height: 150px;
+  font-size: 20px;
+  background-color: aqua;
+
+}
+
+section #org{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+
+}
+
+section #org img{
+
+  width: 245px;
+  height: 150px;
+
+}
+
+aside{
+
+  height: 700px;
+  width: 25%;
+  float: left;
+
+
+}
+
+
+aside img{
+
+  height: 100%;
+  width: 418px;
+
+
+}
+
+footer{
+
+  background-color: black;
+  color: #fff;
+  clear: left;
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
